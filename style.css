@@ -20,7 +20,7 @@
     font-size: 32px;
     color: var(--verde);
  }
- botao{
+ .botao{
     background-color: var(--botao-inativo); 
     color: var(--branco);
     display: flex;
@@ -34,25 +34,48 @@
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
  }
-botoes{
+..botoes{
     display: block;
 }
 @media screen and (min-width:768px)    {
-    botoes{
+    .botoes{
        display: flex;
    }
-    botao:first-child{ 
+    .botao:first-child{ 
        border-radius: 40px 0 0 0; 
 }
-    botao-last-child {
+    .botao-last-child {
        border-radius: 0 40px 0 0;
     }
 }
-ativo {
+.ativo {
    background-color: var(--botao-ativo);
    border-bottom: 4px solid var(--verde);
 }
+.abas-texto{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+    
+} 
+.aba-conteudo.ativo {
+  display: block;
 
+}
+.aba-conteudo {
+    display: none;
+
+}
+.aba-conteudo-titulo-principal {
+    font-size: 28px;
+    text-align: center;
+
+}
+.aba-conteudo-titulo-secundario {
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
 
 
 
