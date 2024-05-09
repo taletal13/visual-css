@@ -1,9 +1,12 @@
 :root{
 
---cor-de-fundo:#1E1E1E
---Verde:#6FFF57
---branco:#FFFFFF
---botão-ativo
+--cor-de-fundo:#1E1E1E;
+--Verde:#6FFF57;
+--branco:#FFFFFF;
+--botao-ativo: #3A375e;
+--botao-inativo:rgba (58, 55, 94, 0.5);
+
+
 }
  .conteudo-principal {
     display: flex
